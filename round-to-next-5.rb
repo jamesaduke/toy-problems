@@ -12,5 +12,6 @@
 # etc.
 
 def round_to_next_5(n)
-	 n.round(0.5)
+	(n % 5).zero? ? n :  (n + 5 - n % 5)
 end
+p round_to_next_5(6)
