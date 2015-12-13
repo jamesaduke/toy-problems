@@ -3,8 +3,7 @@
 # Use the Parameter Testing feature in the box below to test your code with different arguments.
 def AlphabetSoup(str)
 	array = str.split("")
-  	array.sort.to_s
-  # code goes here
+  	array.sort.join
    
          
 end
