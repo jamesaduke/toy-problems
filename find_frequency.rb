@@ -15,3 +15,5 @@ def find_frequency(sentence, word)
 
 end
 p find_frequency('This is a a nothing', 'a')
+p find_frequency('This is cool', 'is')
+p find_frequency('This is very very very annoying', 'very')
