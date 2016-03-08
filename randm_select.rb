@@ -1,3 +1,8 @@
+# create a method 'random_select' which when given 
+# an array of elements(array) and a number (n), returns
+# n randomly selected elements 
+
+
 def random_select(array, n)
 	result=[]
 	n.times do
