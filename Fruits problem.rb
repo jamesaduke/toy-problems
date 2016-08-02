@@ -3,10 +3,12 @@
 # Note: If the array is null or empty you should return empty array ([]). The rotten fruit name will be in this format rottenFruitname where is the 1st letter of the fruit name is uppercase. NB: The returned array should be in LOWER case.
 
 def remove_rotten(fruitBasket) 
-	fruitBasket = ["apple","rottenBanana","kiwi","rottenMango"]
-fruitBasket.each do |d|
-  d.gsub!(/rotten/, '')
-  d.downcase!
- end
+	 
+	fruitBasket.each do |d|
+  		d.gsub!(/rotten/, '')
+  		d.downcase!
+ 	end
   
 end
+p remove_rotten(["apple","rottenBanana","kiwi","rottenMango"])
+p remove_rotten(["rottenApple", ";rottenAvocado", "rottenApple"])

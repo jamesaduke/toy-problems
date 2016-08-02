@@ -6,9 +6,10 @@
 
 def cockroach_speed(s)
   
-(s / 0.036).floor
+(s / 0.036).floor.to_int
 
 
 end
 
 p cockroach_speed(0)
+p cockroach_speed(1.06)

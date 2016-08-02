@@ -4,3 +4,4 @@ def capitals_first(string)
   	a.push(b).join(" ")
 end
 p capitals_first("man Hey Is up What")
+p capitals_first("man Is What wrong")
